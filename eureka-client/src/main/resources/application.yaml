@@ -1,0 +1,10 @@
+server:
+  port: 10003
+spring:
+  application:
+    name: hello-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10002/eureka
